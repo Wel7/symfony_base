@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+<link href="{{ asset('styles/home.css') }}" rel="stylesheet"/>
+{% endblock %}
+{% block title %}Accueil - CRUDcroustillant" pour la page d'accueil{% endblock %}
+{% block content %}
+<img class="card-img-top" src={{ asset("images/big-burger.jpg") }} alt="Card image cap">
+{% endblock %}
